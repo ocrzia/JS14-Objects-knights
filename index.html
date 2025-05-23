@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice ...</title>
+  <link rel="stylesheet" href="styles/styles.min.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>🔮 Heroes of Might & Magic ⚔️</h1>
+    <form action="">
+    <div class="form-container">
+      <label for="">Name</label>
+      <input type="text" name="name" id="name" placeholder="Heroe's name">
+    </div>
+    <div class="form-container">
+      <label for="">Strength</label>
+      <input type="number" name="strength" id="strength" placeholder="Heroe's strength">
+    </div>
+    <div class="form-container">
+      <label for="">SpellPower</label>
+      <input type="number" name="spellPower" id="spellPower" placeholder="Heroe's spell power">
+    </div>
+    <input type="submit" value="Create Hero" id="createHero">
+  </form>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <div class="fight">
+      <form action="">
+        <select name="" id="" class="attack">
+          <option value="" disabled selected>Choisissez un attaquant</option>
+        </select>
+        <select name="" id="" class="defense">
+          <option value="" disabled selected>Choisissez un défenseur</option>
+        </select>
+        <select name="" id="" class="action">
+          <option value="sword">Attaque à l'épée</option>
+          <option value="magic">Attaque magique</option>
+        </select>
+        <input type="submit" value="Lancez l'attaque" id="fight">
+      </form>
+    </div>
+    <div class="hero-list"></div>
+  </div>
+</main>
+</body>
+</html>
